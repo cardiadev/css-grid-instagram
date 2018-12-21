@@ -4,6 +4,7 @@ body{
 }
 .post{
 	cursor: pointer;
+	position: relative;
 
 }
 .post-image{
@@ -26,4 +27,8 @@ body{
 	justify-content: center;
 	text-align: center;
 	color: white;
+  }
+  .post:hover .post-overlay{
+	  display: flex;
+	  
   }
