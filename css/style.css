@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.post{
+	cursor: pointer;
+
+}
+.post-image{
+	margin: 0; /* Porque por defecto el figure tiene margen */
+}
+.post-image img{
+	width: 100%;
+	vertical-align: top;
+}
+.post-overlay {
+	background: rbga(0, 0, 0, .4);
+	position: absolute;
+	/*Su contenedor debe tener una posición relativa*/
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: white;
+  }
