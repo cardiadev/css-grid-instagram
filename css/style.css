@@ -2,6 +2,14 @@ body {
 	margin: 0;
 	font-family: Arial;
   }
+  .container .grid{
+	  margin-top: 50px;
+  }
+  .title{
+	  font-size: 45px;
+	  font-weight: bold;
+	  text-align: center;
+  }
   .post-list {
 	display: grid;
 	grid-template-columns: repeat(3, minmax(100px, 293px));
